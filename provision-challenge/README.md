@@ -25,11 +25,11 @@ Requirements:
 
 Complete `playbook.yml` such that it:
 
-- Installs nginx and runit
+- Installs nginx 
 - Copies `config/nginx.conf`, `files/self-signed.key` and `files/self-signed.crt` to appropriate locations on the destination box
 - Ensure appropriate file permissions are set for each of the three files mentioned above
 - Copies and unzips/untars the contents of application.zip to `/opt/application/` on the destination box
-- Installs and configures the application's `run` script as a runit service
+- Installs and configures the application's `run` script as a systemd service
 - Starts nginx using the configuration you completed and copied to the box
 
 ### Checking your work
