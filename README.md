@@ -6,13 +6,12 @@ Project should include these pieces:
 
 ## Terraform
   * RDS DB (postgres)
-  * EC2 instance
+  * EC2 instance that can connect to said DB instance
 
 ## Ansible
 A playbook to:
   * Install nodejs + npm
   * clone the application
-  * Install npm package `forever`
   * Start the app
 
 ## Notes
