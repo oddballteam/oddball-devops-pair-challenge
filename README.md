@@ -15,8 +15,8 @@ A playbook to:
   * Start the app
 
 ## Notes
-  * Please only use modules you have written and full understand the 
-    ramifications of their use.
+  * Please only use modules you have written and fully understand the 
+    ramifications of theiri use.
   * Please use us-east-1 as your region.
 
 ## Terraform config
